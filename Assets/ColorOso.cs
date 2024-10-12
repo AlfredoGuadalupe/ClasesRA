@@ -13,26 +13,27 @@ public class ColorOso : MonoBehaviour
         OGcolor = rend.material.color;
     }
 
-    // Update is called once per frame
-     void Update()
+    // Método público para cambiar el color
+    public void ChangeColor()
     {
-        // Detectar toques en la pantalla
-        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        touchCount++;
+        switch (touchCount % 5)
         {
-            touchCount++;
-            switch (touchCount % 3)
-            {
-                case 1:
-                    rend.material.color = new Color(0.5f, 0.25f, 0.0f); // Café
-                    break;
-                case 2:
-                    rend.material.color = Color.blue; // Azul
-                    break;
-                default:
-                    rend.material.color = OGcolor; // Color original
-                    break;
-            }
+            case 1:
+                rend.material.color = new Color(0.5f, 0.25f, 0.0f); // Café
+                break;
+            case 2:
+                rend.material.color = Color.red; // Rojo
+                break;
+            case 3:
+                rend.material.color = Color.yellow; // Amarillo
+                break;
+            case 4:
+                rend.material.color = new Color(0.5f, 0.0f, 0.5f); // Morado
+                break;
+            default:
+                rend.material.color = OGcolor; // Color original
+                break;
         }
-
     }
 }
