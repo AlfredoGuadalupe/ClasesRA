@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AVbKxIP/////AAABmXt2EVuVXUwxkwVwm9ihEwIunD17gtBcu568dY5YZQ0mLOMXEZcL0W09eANkuSTqBu/duX3amNBh214IYnSzED3BS70PNzF36ys8SvwYkw+QxZmsWuZUCS0WRs7ScHaapw2pQMkLUsQla7PtaC3FzAWBRe9d74JvbCl8iUG1PS5KSWdfoDP4e/kdYeUBmaY5p7nodtTZ/KB5L9Eahpdf9qJyxFpUy4YEKnZwkqfAEqdXpoyhnIem6qBKfVJOOlCmXrQ1832gb/Ac9bbRPkvyW+yDFVFpxXl1jNmnICuWdTvduSiPhWgHJE4V70tHKOXGVIMMlfcXs0d4xlMJFyAH63ZYKuTB9DrrWtBn/u8uG+J2
-    ufoLicenseKey: QWJQdi81VC8vLy8vQUFBQUtNcysxSkdsWFVUcHJETG5tK2xpVTVBdkwvSjhVbDFpOE81ZnRQR05ma1VlbjNDMG5MdFJOaFFCK3JYOHFOVVNod0hManNwM3FaYWFrcWZ0VndVbTduYUZBeWdnemFGZVZ3TlE3c0k5Kzdvbm8rd2kvbTlWUGdNWTNSdytCcmc2SjZVdldESUpoWmgxUmF1M2hOVFdoY2FUZ0lSUGRCNk1GYWxxN1lCeDVKYXd4RWhCVUV3bE14ZGV3M2hlYUJzUCtHTU80TlViWHJiWVpKNVFZcFZ4eG9nMCs1UkNQYjRNSS9XbzhUTzhTamRVWS9zd3BkTzRBTFRIYU1XNUhTb09DT0hFODRheGJFNEYvUEswYVcvRk5HM0g2L0hNczJTU1NST1pEdHF0a2NWdm52eWFOVyszaFNONFJLL3VIUGhPY0RnYXZIZmJHM2M3SkxwUjAwemltMXlZaGxLLzF0RDNkNm1KcXJVYkZleVI=
+    ufoLicenseKey: QWJJVXJvVC8vLy8vQUFBQUtHTzJiOVpmb2s2WGllcXlaL3BsRkQ1d016L3JESjFPUXhTRGdkclM3QVE4OHA5Z3RzTU10SEJQRlVvMHhWU0Y4czNHVjA3SDJFTjhRV2poNkRwUU8yS25SQjVZYnJuMXpqMk5Bc2tMWVZicnBBazlIM2RDeHdHZ1FMeGc3cmpYVGh2TVhuWDVYemUzNmhQQ0JoTUNMK1FXMkNUOGVqMW9HTXFwU1U0bVl2TWNUSzVYVWNkY2xyNDN3LzgvNVA2QkFoSU9LcnBRZFFEcDhrMUxoRDdyT3ZNeW54OFhHM3hHNFlFMVNoRGJHbjNjVk9oUjhYUUUrNXFiVW1NaUV5enlHNFBtSExmejlNdG9NbjhiZkxiSXNkZXdWOE9NRExhUXh1dG0wMk9yV0lLOGg0TU93RmpydGMybUxodWdxUWdYbG5PVlBzenk0U0NYYk12U1RnRTduME9YTXJrQ3BMR0xNZXc4MlB0VlpZK0w=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    maxSimultaneousImageTargets: 4
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     logLevel: 0
-    version: 10.21.3
-    eulaAcceptedVersions: '{"Values":["","10.21","0.0","10.25"]}'
+    version: 10.27.3
+    eulaAcceptedVersions: '{"Values":["","10.21","0.0","10.25","10.27"]}'
   database:
     disableModelExtraction: 0
   shaders:
